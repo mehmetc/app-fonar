@@ -1,0 +1,83 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix concepts: <http://luisterpunt.data.gift/concepts/>.
+@prefix scheme: <http://luisterpunt.data.gift/concept-schemes/>.
+@prefix luisterpuntLoan: <http://luisterpunt.data.gift/vocabularies/loan/>.
+@prefix mu: <http://mu.semte.ch/vocabularies/core/>.
+
+
+scheme:4c8dcced-9bfa-4efb-8e7d-df15045ff4c0 a skos:ConceptScheme;
+                                            mu:uuid "4c8dcced-9bfa-4efb-8e7d-df15045ff4c0";
+                                            skos:prefLabel "fonar organization types".
+
+concepts:48dfa96a-f7dd-4de2-aab9-ea01c08577b9 a skos:Concept,luisterpuntLoan:OrganizationType;
+                                              mu:uuid "48dfa96a-f7dd-4de2-aab9-ea01c08577b9";
+                                              skos:isTopConceptOf scheme:4c8dcced-9bfa-4efb-8e7d-df15045ff4c0;
+                                              skos:prefLabel "Rusthuizen & dienstencentra";
+                                              skos:notation "01".
+
+concepts:df962690-0978-4b48-bcb1-99a3dfaea50f a skos:Concept,luisterpuntLoan:OrganizationType;
+                                              mu:uuid "df962690-0978-4b48-bcb1-99a3dfaea50f";
+                                              skos:isTopConceptOf scheme:4c8dcced-9bfa-4efb-8e7d-df15045ff4c0;
+                                              skos:prefLabel "Rusthuizen & dienstencentra zonder bruikleencollectie";
+                                              skos:notation "02".
+
+concepts:bdde8527-f18e-4547-aa9b-66e9a2986dd4 a skos:Concept,luisterpuntLoan:OrganizationType;
+                                              mu:uuid "bdde8527-f18e-4547-aa9b-66e9a2986dd4";
+                                              skos:isTopConceptOf scheme:4c8dcced-9bfa-4efb-8e7d-df15045ff4c0;
+                                              skos:prefLabel "Ziekenhuizen";
+                                              skos:notation "03".
+
+concepts:268b2046-0726-4fba-bc83-96a4b43621ae a skos:Concept,luisterpuntLoan:OrganizationType;
+                                              mu:uuid "268b2046-0726-4fba-bc83-96a4b43621ae";
+                                              skos:isTopConceptOf scheme:4c8dcced-9bfa-4efb-8e7d-df15045ff4c0;
+                                              skos:prefLabel "Ziekenhuizen zonder bruikleencollectie";
+                                              skos:notation "04".
+
+concepts:004b0411-ab30-4a6d-9473-06e183780c56 a skos:Concept,luisterpuntLoan:OrganizationType;
+                                              mu:uuid "004b0411-ab30-4a6d-9473-06e183780c56";
+                                              skos:isTopConceptOf scheme:4c8dcced-9bfa-4efb-8e7d-df15045ff4c0;
+                                              skos:prefLabel "Bibliotheken";
+                                              skos:notation "05".
+
+concepts:3f190d32-550b-48a2-a168-d0a8c9647b07 a skos:Concept,luisterpuntLoan:OrganizationType;
+                                              mu:uuid "3f190d32-550b-48a2-a168-d0a8c9647b07";
+                                              skos:isTopConceptOf scheme:4c8dcced-9bfa-4efb-8e7d-df15045ff4c0;
+                                              skos:prefLabel "Bibliotheken zonder bruikleencollectie";
+                                              skos:notation "06".
+
+concepts:37277091-8968-4d3d-a026-5a397fb28530 a skos:Concept,luisterpuntLoan:OrganizationType;
+                                              mu:uuid "37277091-8968-4d3d-a026-5a397fb28530";
+                                              skos:isTopConceptOf scheme:4c8dcced-9bfa-4efb-8e7d-df15045ff4c0;
+                                              skos:prefLabel "Scholen";
+                                              skos:notation "07".
+
+concepts:f558ae77-abda-4071-a0d4-f7737cc4731e a skos:Concept,luisterpuntLoan:OrganizationType;
+                                              mu:uuid "f558ae77-abda-4071-a0d4-f7737cc4731e";
+                                              skos:isTopConceptOf scheme:4c8dcced-9bfa-4efb-8e7d-df15045ff4c0;
+                                              skos:prefLabel "Scholen zonder bruikleencollectie";
+                                              skos:notation "08".
+
+concepts:14930717-8c19-4b2f-b31d-47d5fe5e439c a skos:Concept,luisterpuntLoan:OrganizationType;
+                                              mu:uuid "14930717-8c19-4b2f-b31d-47d5fe5e439c";
+                                              skos:isTopConceptOf scheme:4c8dcced-9bfa-4efb-8e7d-df15045ff4c0;
+                                              skos:prefLabel "Andere instellingen";
+                                              skos:notation "09".
+
+concepts:1cb47771-58fd-4ff1-accd-9d53082b00a6 a skos:Concept,luisterpuntLoan:OrganizationType;
+                                              mu:uuid "1cb47771-58fd-4ff1-accd-9d53082b00a6";
+                                              skos:isTopConceptOf scheme:4c8dcced-9bfa-4efb-8e7d-df15045ff4c0;
+                                              skos:prefLabel "Andere instellingen zonder bruikleencollectie";
+                                              skos:notation "10".
+
+concepts:000bef35-ffa0-4332-8958-67c46cd60f17 a skos:Concept,luisterpuntLoan:OrganizationType;
+                                              mu:uuid "000bef35-ffa0-4332-8958-67c46cd60f17";
+                                              skos:isTopConceptOf scheme:4c8dcced-9bfa-4efb-8e7d-df15045ff4c0;
+                                              skos:prefLabel "Logopediepraktijken";
+                                              skos:notation "11".
+
+concepts:848e90ea-fe45-41be-aeaa-e6d81193123b a skos:Concept,luisterpuntLoan:OrganizationType;
+                                              mu:uuid "848e90ea-fe45-41be-aeaa-e6d81193123b";
+                                              skos:isTopConceptOf scheme:4c8dcced-9bfa-4efb-8e7d-df15045ff4c0;
+                                              skos:prefLabel "Logopediepraktijken zonder bruikleencollectie";
+                                              skos:notation "12".

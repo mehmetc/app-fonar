@@ -1,0 +1,26 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix concepts: <http://luisterpunt.data.gift/concepts/>.
+@prefix scheme: <http://luisterpunt.data.gift/concept-schemes/>.
+@prefix luisterpuntLoan: <http://luisterpunt.data.gift/vocabularies/loan/>.
+@prefix schema: <http://schema.org/>.
+@prefix mu: <http://mu.semte.ch/vocabularies/core/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+scheme:4477916e-47f3-4c6d-8887-23bf185add22 a skos:ConceptScheme;
+                                            mu:uuid "4477916e-47f3-4c6d-8887-23bf185add22";
+                                            skos:prefLabel "fonar gender types".
+
+concepts:0e29b4f4-690c-4913-bfb0-412d8c854b73  a skos:Concept, schema:GenderType;
+                                              skos:isTopConceptOf scheme:4477916e-47f3-4c6d-8887-23bf185add22.
+                                              skos:prefLabel "Vrouw";
+                                              skos:notation "V";
+                                              owl:sameAs <http://schema.org/Female>;
+                                              mu:uuid "0e29b4f4-690c-4913-bfb0-412d8c854b73".
+
+concepts:b9d5bc0e-f560-466d-b904-a5a5e5306170  a skos:Concept, schema:GenderType;
+                                              skos:isTopConceptOf scheme:4477916e-47f3-4c6d-8887-23bf185add22.
+                                              skos:prefLabel "Man";
+                                              skos:notation "M";
+                                              owl:sameAs <http://schema.org/Male>;
+                                              mu:uuid "b9d5bc0e-f560-466d-b904-a5a5e5306170".
